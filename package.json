@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest --coverage --verbose",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo success",
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
