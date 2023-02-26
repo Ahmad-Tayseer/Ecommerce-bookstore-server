@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "echo success",
-    "test": "jest --coverage --verbose"
+    "test": "NODE_ENV=test jest",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "NODE_ENV=production node index.js"
   },
   "repository": {
     "type": "git",
