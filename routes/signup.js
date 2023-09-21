@@ -1,7 +1,7 @@
 const { body, validationResult } = require("express-validator");
 const express = require("express");
-const { users } = require("../model/users");
 const signupRouter = express.Router();
+const { users } = require("../model/users");
 const bcrybt = require("bcrypt");
 
 signupRouter.post(

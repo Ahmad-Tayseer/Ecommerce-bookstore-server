@@ -1,6 +1,4 @@
-"use strict";
 const { sequelize, DataTypes } = require("./index");
-
 const users = sequelize.define("userTbl", {
   username: { type: DataTypes.STRING, required: true, allowNull: false },
   email: {
